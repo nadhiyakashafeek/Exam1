@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMW</title>
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Boldonse&family=Cedarville+Cursive&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lobster&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Pacifico&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Playwrite+CZ:wght@100..400&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap"
+        rel="stylesheet">
+
+    <!-- Bootstrap -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+     <!-- Bootstrap -->
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+
+        }
+
+        h1 {
+            font-family: "Nunito", sans-serif;
+            font-optical-sizing: auto;
+        }
+
+        .container-fluid {
+           
+            font-size: 25px;
+            font-family: "Nunito", sans-serif;
+
+        }
+
+        nav {
+            height: 900px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-image: url(https://i.pinimg.com/1200x/e3/46/d2/e346d2b57f9206d8cb3b8bfc076dee09.jpg);
+        }
+        ul{
+            padding: 10px;
+        }
+        ul li {
+            margin-right: 3px;
+            transition: width ease-in-out;
+
+        }
+
+        ul li:hover {
+            width: 100px;
+        }
+
+        /* From Uiverse.io by michael_8553 */
+        .button-container {
+            display: flex;
+            background-color: rgb(240, 235, 235);
+            width: 300px;
+            height: 70px;
+            align-items: center;
+            justify-content: space-around;
+            border-radius: 5px;
+        }
+
+        .button {
+            outline: 0 !important;
+            border: 0 !important;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background-color: transparent;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            transition: all ease-in-out 0.1s;
+            cursor: pointer;
+        }
+
+        .button:hover {
+            transform: translateY(-3px);
+        }
+
+        .icon {
+            font-size: 25px;
+        }
+        /* .row{
+            width: 700px;
+            height: 300px;
+            margin-left: 500px;
+            align-items: center;
+            justify-content: center;
+        } */
+         .heading{
+            margin-top: 100px;
+         }
+    </style>
+</head>
+
+<body>
+    <section>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+            <!-- Container wrapper -->
+            <div class="container-fluid">
+                <!-- Toggle button -->
+                <button data-mdb-collapse-init class="navbar-toggler" type="button"
+                    data-mdb-target="#navbarLeftAlignExample" aria-controls="navbarLeftAlignExample"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+
+                <!-- Collapsible wrapper -->
+                <div class="collapse navbar-collapse" id="navbarLeftAlignExample">
+                    <!-- Left links -->
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 py-2px">
+                        <li >
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRX9YmeYAC8HTRzm45ewLgq3-P01uXMt68bKQ&s" alt="" style="width: 100px; height: 100px;">
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link active text-light" aria-current="page" href="#">All Models</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#">Electric</a>
+                        </li>
+
+                        <!-- Navbar dropdown -->
+                        <li class="nav-item dropdown">
+                            <a data-mdb-dropdown-init class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown"
+                                role="button" aria-expanded="false">
+                                Visit Online Shop
+                            </a>
+                            <!-- Dropdown menu -->
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li>
+                                    <a class="dropdown-item text-light" href="#">Action</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item text-light" href="#">Another action</a>
+                                </li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
+                                <li>
+                                    <a class="dropdown-item text-light" href="#">Something else here</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a data-mdb-dropdown-init class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown"
+                                role="button" aria-expanded="false">
+                                More BMW
+                            </a>
+                            <!-- Dropdown menu -->
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li>
+                                    <a class="dropdown-item" href="#">Action</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Another action</a>
+                                </li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                    <!-- Left links -->
+                </div>
+                <!-- Collapsible wrapper -->
+
+            </div>
+            <!-- Container wrapper -->
+        </nav>
+    </section>
+
+    <section class=" heading m-50">
+        <div class="text-center">
+            <h1>Find your BMW.</h1>
+        </div>
+
+        <div class="row d-flex text-center">
+            <div class="col container-fluid  ">
+                <a href=""><img src="./new-car_16108669.png" alt="" style="width: 200px; height: 200px;"></a>
+                <h1 class="mt-20 p-2">Find a new Car</h1>
+            </div>
+            <div class="col container-fluid ">
+                <a href=""><img src="./booknewcar.png" alt="" style="width: 200px; height: 200px;"></a>
+                <h1 class="mt-20 p-2">Book a new Car</h1>
+            </div>
+            <div class="col container-fluid ">
+                <a href=""><img src="./built.png" alt="" style="width: 200px; height: 200px;"></a>
+                <h1 class="mt-20 p-2">Bulit your Own</h1>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
