@@ -33,20 +33,7 @@ function SpeedCalculator() {
     </Col>
          
          <div><h1>Result is : {result}</h1></div>
-         {/* <Col className='border border-primary'>
-        <h2 > Caclculate Speed </h2>
-        <input type="text" onChange={(e)=>setDistance(e.target.value)} placeholder='Enter distance' />
-        <input type="text" onChange={(e)=>setTime(e.target.value)} placeholder='enter time'/>
-         <Button variant="primary"onClick = {CalculateDistance}> Calculate Distance</Button>
-         <div><h1>Result is : {result}</h1></div>
-        </Col>
-         <Col className='border border-primary'>
-        <h2 > Caclculate Speed </h2>
-        <input type="text" onChange={(e)=>setDistance(e.target.value)} placeholder='Enter distance' />
-        <input type="text" onChange={(e)=>setSpeed(e.target.value)} placeholder='enter time'/>
-         <Button variant="primary"onClick = {CalculateTime}> Calculate Time</Button>
-         <div><h1>Result is : {result}</h1></div>
-        </Col> */}
+        
      </Row>
     </div>
   )
